@@ -1,7 +1,6 @@
 """
-utils.py
 
-This file contains utility functions for game logic.
+Contains utility functions used by the game logic.
 
 """
 

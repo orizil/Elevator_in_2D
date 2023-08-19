@@ -1,9 +1,11 @@
 """
+
 Not currently in use.
 Is meant to be used for the calculation of elevator's next target passenger.
 (Instead of using the distance from passenger to center of mass,
 this enables calculating the distance from passenger to the closest centroid,
 the centroids are found via Sequential Kmeans.)
+
 """
 
 import numpy as np

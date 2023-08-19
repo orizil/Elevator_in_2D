@@ -1,3 +1,9 @@
+"""
+
+Manages the graphical interface for the game, drawing the game board, passengers, and elevator.
+
+"""
+
 import pygame
 import main
 

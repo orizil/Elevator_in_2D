@@ -1,3 +1,10 @@
+"""
+
+Contains the core game logic, including classes for the elevator game, passengers, and elevator actions.
+
+"""
+
+
 import utils
 import location_randomizer
 import math

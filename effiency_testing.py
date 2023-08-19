@@ -1,6 +1,13 @@
+"""
+
+Performs efficiency testing and analysis of the elevator game simulation. Includes functions to calculate statistics and t-tests.
+
+"""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
-import Elevator_Game
+import elevator_game
 from skopt import gp_minimize
 from skopt.space import Real
 
@@ -14,7 +21,7 @@ N_GAMES = 10000
 
 def run_game(turns, scale):
     switch_turns = []
-    game = Elevator_Game.ElevatorGame(GRID_SIZE, INIT_PASSENGER_NUM, MAX_PASSENGERS, NEW_PASSENGER_P, scale)
+    game = elevator_game.ElevatorGame(GRID_SIZE, INIT_PASSENGER_NUM, MAX_PASSENGERS, NEW_PASSENGER_P, scale)
     last_status = "p"
     while game.turn_n < turns:
         cur_status = game.elevator.status

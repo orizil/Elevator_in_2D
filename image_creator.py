@@ -1,11 +1,18 @@
+"""
+
+Generates distinct pastel colors used for graphical elements.
+
+"""
+
 import distinctipy
+
 from wand.image import Image
 
 
 def distinct_colors(n):
     """
-    create distinct pastel colors for gui objects
-    return a list with n distinct color hex codes
+    create distinct pastel colors.
+    return: a list with n distinct color hex codes
     """
     colors = distinctipy.get_colors(n, pastel_factor=0.7)
     colors_to_hex = [distinctipy.distinctipy.get_hex(color) for color in colors]

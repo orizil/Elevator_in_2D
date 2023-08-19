@@ -1,7 +1,11 @@
+"""
+
+Contains functions for choosing random cells on the grid. Used for controlling where passengers can spawn.
+
+"""
+
 import opensimplex
 import numpy as np
-import matplotlib.pyplot as plt
-import random
 
 
 def create_2d_p_grid(width, height,seed, scale=0.5, threshold=0.6):
