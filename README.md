@@ -23,7 +23,7 @@ maximum passengers on board and probability of passenger spawning.
 - **Number of elevators:** There is only one elevator. Addition of multiple elevators would require change  
 of the pathfinding algorithm for optimized results.
 - **Uniform passengers spawn:** The passengers spawn uniformly on the area they are allowed.  
-A different approach is a use of a heatmap of spawn probabilities.
+A different approach is to use of a heatmap of spawn probabilities.
 
 
 ## Code Structure
