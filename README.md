@@ -10,9 +10,7 @@ to efficiently pick up and drop off passengers, while considering factors like p
 ![Simulation in Action](demo/elevator_in_2d.gif)
 
 ## Features
-
 - **Grid-Based Environment:** The simulation is set in a grid-based environment where passengers are randomly spawned.
-
 - **Passenger Placement:** Elevator in 2D employs the OpenSimplex noise algorithm to generate  
 areas on the grid where passengers can be placed.
 - **Pathfinding:** The elevator automatically moves towards the passenger with the highest priority.
