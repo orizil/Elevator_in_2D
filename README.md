@@ -1,7 +1,7 @@
 
 # Elevator in 2D
 
-Elevator in 2D is a simulation of an elevator system within a grid-based environment. The objective of the elevator is  
+Elevator in 2D is a simulation of an elevator system within a grid-based environment. The objective of the elevator is
 to efficiently pick up and drop off passengers, while considering factors like passenger wait-time and distance.
 
 
