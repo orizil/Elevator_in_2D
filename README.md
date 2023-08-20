@@ -15,8 +15,6 @@ to efficiently pick up and drop off passengers, while considering factors like p
 
 - **Passenger Placement:** Elevator in 2D employs the OpenSimplex noise algorithm to generate  
 areas on the grid where passengers can be placed.
-
-
 - **Pathfinding:** The elevator automatically moves towards the passenger with the highest priority.
 - **Effiency Testing:** Allows tuning the pathfinding paramaters for improving elevator's effiency.
 - **Custom Settings:** Custom control over the grid size, number of turns,
