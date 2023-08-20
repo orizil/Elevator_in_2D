@@ -1,9 +1,8 @@
 
 # Elevator in 2D
 
-Elevator in 2D is a simulation of an elevator system within a grid-based environment.  
-The objective of the elevator is to efficiently pick up and drop off passengers,  
-while considering factors like passenger wait-time and distance.
+Elevator in 2D is a simulation of an elevator system within a grid-based environment. The objective of the elevator is  
+to efficiently pick up and drop off passengers, while considering factors like passenger wait-time and distance.
 
 
 ## Demo
@@ -19,9 +18,7 @@ areas on the grid where passengers can be placed.
 
 
 - **Pathfinding:** The elevator automatically moves towards the passenger with the highest priority.
-- 
 - **Effiency Testing:** Allows tuning the pathfinding paramaters for improving elevator's effiency.
-
 - **Custom Settings:** Custom control over the grid size, number of turns,
 maximum passengers on board and probability of passenger spawning.
 
