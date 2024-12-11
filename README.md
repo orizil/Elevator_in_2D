@@ -20,10 +20,9 @@ maximum passengers on board and probability of passenger spawning.
 
 ## Limitations
 - **Capacity:** The elevator can pick up to one passenger at a time.
-- **Number of elevators:** There is only one elevator. Addition of multiple elevators would require change  
-of the pathfinding algorithm for optimized results.
-- **Uniform passengers spawn:** The passengers spawn uniformly on the area they are allowed.  
-A different approach is to use of a heatmap of spawn probabilities.
+- **Number of elevators:** There is only one elevator. The addition of multiple elevators, would require changing the pathfinding algorithm for optimized results.
+- **Uniform passengers spawn:** Passengers spawn uniformly on the area they are allowed.  
+  Another approach is to use a heatmap of spawn probabilities.
 
 
 ## Code Structure
